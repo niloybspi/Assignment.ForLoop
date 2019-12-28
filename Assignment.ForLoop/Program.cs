@@ -6,7 +6,9 @@ namespace Assignment.ForLoop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Please enter a name : ");
+            var name = Console.ReadLine();
+            Console.WriteLine($"Hello i want to say good bye {name}");
         }
     }
 }
