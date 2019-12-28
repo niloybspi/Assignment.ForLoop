@@ -6,8 +6,10 @@ namespace Assignment.ForLoop
     {
         static void Main(string[] args)
         {
-            BMW v = new BMW();
-            v.;
+            for (int i = 0; i < 11; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
